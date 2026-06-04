@@ -1,5 +1,8 @@
 <?php
+
 /**
+ * @license    GPL 2 (https://www.gnu.org/licenses/gpl.html)
+ *
  * language file for snow plugin
  *
  * Copyright (c) 2013 Mark C. Prins <mprins@users.sf.net>
@@ -16,5 +19,19 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * @author  Mark C. Prins <mprins@users.sf.net>
+ * @author Wizzard <wizzardsk@gmail.com>
+ * @author Mark C. Prins <mprins@users.sf.net>
  */
+$lang['enabled']               = 'Zapnúť alebo vypnúť sneh';
+$lang['zindex']                = 'CSS poradie vrstiev (z-index) aplikované na každú snehovú vločku';
+$lang['color']                 = 'Žltý sneh nejedzte (ani nepoužívajte?).';
+$lang['excludemobile']         = 'Sneh pravdepodobne nepoteší CPU (a batérie) mobilných telefónov. Zapnite na vlastné riziko.';
+$lang['flakesmax']             = 'Obmedziť celkové množstvo snehu (padajúci + usadený)';
+$lang['flakesmaxactive']       = 'Obmedziť množstvo naraz padajúceho snehu (menej = nižšia záťaž CPU)';
+$lang['animationinterval']     = 'Teoretické meranie "milisekúnd na snímku". 20 = rýchle + plynulé, ale vysoká záťaž CPU. 50 = konzervatívnejšie, ale pomalšie';
+$lang['usegpu']                = 'Zapnúť hardvérovú akceleráciu cez transformácie, znižuje záťaž CPU.';
+$lang['followmouse']           = 'Pohyb snehu môže reagovať na myš používateľa';
+$lang['snowstick']             = 'Má sa sneh "lepiť" na spodku? Keď je vypnuté, nikdy sa nebude hromadiť.';
+$lang['usemelteffect']         = 'Pri recyklácii spadnutého snehu (alebo zriedkavo počas padania) ho nechať "roztopiť" a vytratiť, ak to prehliadač podporuje';
+$lang['usetwinkleeffect']      = 'Povoliť snehu náhodne "blikať" počas padania';
+$lang['freezeonblur']          = 'Snežiť iba keď je okno aktívne (v popredí). Šetrí CPU.';
